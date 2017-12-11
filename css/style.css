@@ -82,9 +82,11 @@ img, video, audio {
 
 /*//// LAYOUT //// */
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /*now includes border and padding. 
-  we add prefixes for older versions of safari and firefox. 
+  /*now includes border and padding.
+  we add prefixes for older versions of safari and firefox.
 }
 .wrapper {
   width: 1080px;
