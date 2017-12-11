@@ -81,6 +81,9 @@ img, video, audio {
 
 
 /*//// LAYOUT //// */
+* {
+  box-sizing: border-box;
+}
 .wrapper {
   width: 1080px;
   margin: 0 auto; /* first value top and bottom. second is 4 left and
@@ -137,7 +140,6 @@ section {
   padding:20px;
   /* introducing this padding causes problems to width since we are using
   the w3 box model, which does not include padding. the company news section
-  doesn't fit along side the video anymore and moves below. 
+  doesn't fit along side the video anymore and moves below.
   easy fix is to select all and set box-sizing to :border-box . */
-
 }
