@@ -74,7 +74,6 @@ figcaption {
 img, video, audio {
   max-width: 100%;
   /* sets these medias to be 100% width within the confines of their parent element*/
-  
 }
 
 
