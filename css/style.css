@@ -130,3 +130,9 @@ new class and set the margin-left to be 0%. */
   height: 0;
   line-height:0;
 }
+
+/*//// SECTION //// */
+section {
+  margin-bottom: 20px;
+  padding:20px;
+}
