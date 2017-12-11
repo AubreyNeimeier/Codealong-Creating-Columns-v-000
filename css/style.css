@@ -107,3 +107,7 @@ figcaption {
 the following property:value */
   margin-left: 2%;
 }
+
+.first {
+  margin-left:0%;
+}
