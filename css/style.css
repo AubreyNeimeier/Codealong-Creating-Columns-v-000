@@ -110,4 +110,5 @@ the following property:value */
 
 .first {
   margin-left:0%;
-}
+} /* we don't want first column to be displaced on the left so we make a
+new class and set the margin-left to be 0%.
