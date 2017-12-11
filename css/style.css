@@ -139,6 +139,15 @@ new class and set the margin-left to be 0%. */
 }
 
 /*//// SECTION //// */
+header{
+  position:fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+
+}
 section {
   margin-bottom: 20px;
   padding:20px;
