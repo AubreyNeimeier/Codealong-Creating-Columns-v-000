@@ -73,7 +73,10 @@ figcaption {
 /*//// Media ////*/
 img, video, audio {
   max-width: 100%;
-  /* sets these medias to be 100% width within the confines of their parent element*/
+  /* sets these medias to be 100% width within the confines of their parent
+  element
+  now both the columns and media have a fluid width. we can change everything by
+  simply changing the wrapper hard code width*/
 }
 
 
