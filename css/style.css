@@ -102,3 +102,8 @@ figcaption {
 .col-3{ /*block by default so will automatically take 100% (on new line) */
   background: #ccc:
 }
+
+[class*="-"] { /* selects anything that has a class containing "-" and adds
+the following property:value */
+  margin-left: 2%;
+}
