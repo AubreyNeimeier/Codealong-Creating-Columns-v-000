@@ -76,5 +76,5 @@ figcaption {
   width: 960px;
   margin: 0 auto; /* first value top and bottom. second is 4 left and
   right. auto makes it centered */
-
+  background: #eee;
 }
