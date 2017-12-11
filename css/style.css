@@ -82,7 +82,7 @@ img, video, audio {
 
 /*//// LAYOUT //// */
 .wrapper {
-  width: 960px;
+  width: 1080px;
   margin: 0 auto; /* first value top and bottom. second is 4 left and
   right. auto makes it centered */
   background: #eee;
