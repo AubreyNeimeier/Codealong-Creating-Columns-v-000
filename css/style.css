@@ -70,8 +70,15 @@ figcaption {
 #details a:active {
   color: red;
 }
+/*//// Media ////*/
+img, video, audio {
+  max-width: 100%;
+  /* sets these medias to be 100% width within the confines of their parent element*/
+  
+}
 
-/* LAYOUT */
+
+/*//// LAYOUT //// */
 .wrapper {
   width: 960px;
   margin: 0 auto; /* first value top and bottom. second is 4 left and
