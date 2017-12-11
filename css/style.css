@@ -86,7 +86,7 @@ img, video, audio {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /*now includes border and padding.
-  we add prefixes for older versions of safari and firefox.
+  we add prefixes for older versions of safari and firefox. */
 }
 .wrapper {
   width: 1080px;
