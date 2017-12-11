@@ -136,7 +136,8 @@ section {
   margin-bottom: 20px;
   padding:20px;
   /* introducing this padding causes problems to width since we are using
-  the w3 box model, which does not include padding. the company news section 
-  doesn't fit along side the video anymore and moves below */
-  
+  the w3 box model, which does not include padding. the company news section
+  doesn't fit along side the video anymore and moves below. 
+  easy fix is to select all and set box-sizing to :border-box . */
+
 }
